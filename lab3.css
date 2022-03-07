@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+body {
+  font-size: 16px;
+  background-color: rgba(252, 175, 215, 0.5);
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(0, 31, 38)
+}
+
+/* put .sr-only here */
+/* .container{
+  max-width: 960px;
+  margin: 0 auto;
+} */
+
+
+header{
+  text-align: center;
+}
+/* form  { display: inline;
+float: left;
+list-style:none;}
+input {
+  width: 50%;
+  padding-left: 20px;
+} */
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: right;
+}
+input {
+  display: inline-block;
+  float: left;
+}
+select{
+  display: inline-block;
+  float: left;
+}
+textarea{
+  display: inline-block;
+  float: left;
+}
+button{
+  display: inline-block;
+  float: left;
+}
+
+table {
+border: 3px solid black;
+box-shadow: 9px 9px 10px gray;
+}
+td {
+background: linear-gradient(to right, #0033FF, #3399FF);
+color: white;
+}
+th {
+background-image: linear-gradient(to right, #FFCC00, yellow);
+color: #0033FF;
+}
+
+h1,
+h2 {
+  /* font-family: 'Festive', cursive; */
+  font-family: 'PT_Serif', PTSerif-Regular;
+  margin-bottom: 10px;
+}
+
+p{
+  /* font-family: 'PT_Serif', PTSerif-Regular; */
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.2em;
+  margin-bottom: 2.8;
+}
+nav{
+  margin: 40px 0;
+}
+nav ul{
+  font-size: 1.2em;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+
+}
+nav ul li {
+  display: inline;
+  float: left;
+  list-style:none;
+}
+
+ol li{
+  font-size: 0.8em;
+}
+
+.note{
+  max-width: 499px;
+  font-size: calc(1em * 0.875);
+  line-height: 1.6;
+  font-size: 0.9em;
+  font-style: italic;
+  margin: 0 auto;
+}
+.infobox {
+    border: 1px solid #a2a9b1;
+    border-spacing: 3px;
+    background-color: #f8f9fa;
+    color: black;
+    margin: 0.5em 0 0.5em 1em;
+    padding: 0.2em;
+    float: right;
+    clear: right;
+    font-size: 88%;
+    line-height: 1.5em;
+    width: 22em;
+}
+.container{
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+
+@media screen and (max-width: 615 px){
+  nav ul{
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    margin: 20px 0;
+
+  }
+}
